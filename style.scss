@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: aquamarine;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        div{
+            img{
+                width: 50px;
+            }
+        }
+        ul{
+        display: flex;
+        list-style: none;
+        }
+    }
+}
